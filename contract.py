@@ -15,7 +15,7 @@ ctx = GetContext()
 TransferEvent = RegisterAction("transfer", "from", "to", "amount")
 ApprovalEvent = RegisterAction("approval", "owner", "spender", "amount")
 
-OWNER = Base58ToAddress("AQf4Mzu1YJrhz9f3aRkkwSm9n3qhXGSh4p")
+OWNER = Base58ToAddress("AXtoLEYsWiCauWmqR3kbGxC7EnfPoyrweR")
 
 NAME = 'Lock Token'
 SYMBOL = 'LOCK'
