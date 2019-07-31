@@ -1,13 +1,8 @@
 OntCversion = '2.0.0'
 
 '''
-OEP4 Example Contract
+Lock Token
 
-Written: July 21st, 2019
-Author: Wyatt Mufson <wyatt@towerbuilders.org>
-
-Copyright (C) 2019 TowerBuilders
-Available free of charge under the MIT license
 '''
 
 from ontology.interop.Ontology.Runtime import Base58ToAddress
@@ -22,8 +17,8 @@ ApprovalEvent = RegisterAction("approval", "owner", "spender", "amount")
 
 OWNER = Base58ToAddress("AQf4Mzu1YJrhz9f3aRkkwSm9n3qhXGSh4p")
 
-NAME = 'OEP4 Token'
-SYMBOL = 'OEP4'
+NAME = 'Lock Token'
+SYMBOL = 'LOCK'
 DECIMALS = 8
 TOTAL_AMOUNT = 100000000 # 100 million
 DECIMAL_MULTIPLIER = 100000000 # 10^{DECIMALS} = 10^8
