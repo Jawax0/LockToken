@@ -165,7 +165,7 @@ def transferMulti(args):
     """
     for p in args:
         Require(len(p) == 3)
-        transfer(p[0], p[1], p[2])
+        Require(transfer(p[0], p[1], p[2]))
     return True
 
 
@@ -314,11 +314,11 @@ def Require(expr, message="There was an error"):
     if not expr:
         Log(message)
         raise Exception(message)
-        
+
 # OEP-59
 
 def supportedStandards():
     return STANDARDS
-    
+
 def supports(standard):
     return elt_in(STANDARDS, standard)
